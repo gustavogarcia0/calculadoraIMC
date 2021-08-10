@@ -1,0 +1,90 @@
+body{
+    background-color:#bb9351;
+    color:white;
+}
+
+.container{
+    background-color:#837139;
+    padding:30px;
+    width:60%;
+    margin: 0 auto;
+}
+
+.headerForm h1{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.table{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+        margin-bottom:30px;
+}
+
+.tableimc{
+    margin-right:100px;
+}
+
+.table p{
+    text-align:center;
+    font-size:1.1em;
+}
+
+.table h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size:1.1em;
+}
+
+.formContainer{
+    display:flex;
+    flex-direction: column;
+}
+
+.btnsubmit{
+    font-weight: bold;
+    width:30%;
+    height:45px;
+    margin: 0 auto;
+    border-radius:30px;
+    border:2px solid #bb9351;
+    background-color:#ffeeb7;
+}
+.formContainer button:hover{
+    background-color:#bb9351;
+    color:white;
+    font-weight:normal;
+}
+
+.formContainer input{
+    border:1px solid black;
+    height:30px;
+}
+
+
+.formContainer label{
+    font-size:1.12rem;
+    margin-bottom:-10px;
+}
+
+.lineSep{
+    width:100%;
+    height:2px;
+    background-color:white;
+    margin-bottom:30px;
+}
+
+.formContainer select{
+    height:45px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom:30px;
+}
+
+.usersIMC p{
+    background-color:#584e30;
+    padding:5px;
+    text-align: justify;
+    border:2px solid white;
+}
