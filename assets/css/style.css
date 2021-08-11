@@ -1,4 +1,5 @@
 body{
+    padding:50px;
     background-color:#bb9351;
     color:white;
 }
@@ -8,6 +9,7 @@ body{
     padding:30px;
     width:60%;
     margin: 0 auto;
+    border-radius: 50px;
 }
 
 .headerForm h1{
